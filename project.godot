@@ -11,5 +11,25 @@ config_version=5
 [application]
 
 config/name="Feline Fatality"
+config/description="An action roguelike where you play as Mao, a Cat Witch trying to get her way out of the Underworld using her magical powers. Reap SOUL from the beasts to gain power, and sacrifice your own lives for even greater strength—you have nine of them after all."
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=640
+window/size/viewport_height=360
+window/size/mode=3
+window/size/initial_position_type=4
+window/size/borderless=true
+window/stretch/mode="viewport"
+window/stretch/aspect="keep_width"
+window/stretch/scale_mode="integer"
+
+[dotnet]
+
+project/assembly_name="Feline Fatality"
+
+[rendering]
+
+2d/snap/snap_2d_transforms_to_pixel=true
